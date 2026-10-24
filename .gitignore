@@ -1,0 +1,39 @@
+# Build outputs
+bin/
+obj/
+release/
+.vs/
+*.exe
+*.pdb
+*.user
+*.suo
+
+# Credentials and personal runtime data
+.env
+.env.*
+settings.json
+settings.json.new
+cache.dat
+cache.dat.new
+usage.json
+usage.json.new
+*.dpapi
+data/
+local-data/
+*.pem
+*.key
+
+# Test outputs and scratch files
+test-data*/
+ui-test-data*/
+test-results/
+port*.txt
+*.log
+__pycache__/
+work/
+outputs/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
